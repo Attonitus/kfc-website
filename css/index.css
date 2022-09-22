@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  min-block-size: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: radial-gradient(#d35145, #c12c3d);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem;
+  color: white;
+}
+.main header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.main header .navigation {
+  display: flex;
+  padding: 0;
+  gap: 1rem;
+}
+.main header .navigation li {
+  list-style: none;
+}
+.main header .navigation li a {
+  color: white;
+  text-decoration: none;
+}
+.main .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .content-img {
+  margin: 2rem;
+}
+.main .content .text .btn {
+  padding: 1rem;
+  border-radius: 2rem;
+  text-decoration: none;
+}
+.main .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .social {
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+}
+.main .social li {
+  list-style: none;
+}
+.main .social li a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=index.css.map */
